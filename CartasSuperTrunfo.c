@@ -88,12 +88,7 @@ void EntradaB01(){
 
 }
 
-
-int main() {
-
-EntradaA01();
-EntradaB01();
-
+void saidaDeCartas(){
 
 // Aqui iremos mostrar o status das cartas //
 printf("Suas duas cartas são: \n");
@@ -103,5 +98,13 @@ printf("------------------------\nCarta: A01 \nEstado: %s \nCidade: %s \nPopula�
 printf("------------------------\nCarta: B01 \nEstado: %s \nCidade: %s \nPopulação: %i \nÁrea: %.1f \nPIB: %.3f \nPontos Turísticos: %i \n------------------------\n \n \n",
         estadoaB01,cidadeB01,populacaoB01,areaB01,PIBB01);
     
+}
+
+int main() {
+
+EntradaA01();
+EntradaB01();
+saidaDeCartas();
+
 
 }
